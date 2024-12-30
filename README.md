@@ -1,1 +1,1 @@
-# EC2-SERVER
+# aws-ec2-servers
