@@ -1,6 +1,6 @@
 #!/bin/bash
-yum update -y
-yum install nginx -y
-systemctl start nginx
-systemctl enable nginx
-echo "<h1>Hello World from $(hostname -f)</h1>" | tee /usr/share/nginx/html/index.html
+sudo yum update -y
+sudo yum install nginx -y
+sudo systemctl start nginx
+sudo systemctl enable nginx
+sudo echo "<h1>Hello World from $(hostname -f)</h1>" | sudo tee /usr/share/nginx/html/index.html
