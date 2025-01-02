@@ -3,4 +3,5 @@ sudo yum update -y
 sudo yum install nginx -y
 sudo systemctl start nginx
 sudo systemctl enable nginx
-sudo echo "<h1>Hello World from $(hostname -f)</h1>" | sudo tee /usr/share/nginx/html/index.html
+# Opcional para crear el fichero que almacenara el index.html 
+# sudo echo "<h1>Hello World</h1>" | sudo tee /usr/share/nginx/html/index.html
