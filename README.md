@@ -7,7 +7,7 @@ Este repositorio contiene scripts y archivos necesarios para levantar una instan
 ```
 aws-ec2-servers/
 │── scripts/         # Scripts de instalación y configuración de Nginx y Apache en instancias Linux de AWS
-│── web/             # Archivos HTML y CSS para la página de bienvenida
+│── public/             # Archivos HTML y CSS para la página de bienvenida
 │   ├── index.html   # Página de inicio
 │   ├── style.css    # Estilos para la página web
 ```
